@@ -1,0 +1,200 @@
+.fondo {
+  position: relative; 
+  display: flex;
+  background: black;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tech {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 909px;
+  background-image: url('../public/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.robot {
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  align-items: center; 
+}
+
+.robot-img {
+  margin-top: 60px;
+  width: 40%; 
+  height: 852px; 
+}
+
+.lines{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  margin: auto;
+  width: 90vw;
+}
+  
+.line{
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.006);
+  overflow: hidden;
+
+  &::after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(153, 153, 153, 0.01) 0%, rgba(255, 255, 255, 0.51) 75%, rgba(153, 153, 153, 0.12) 100%);
+    animation: drop 7s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  
+    }
+
+    &:nth-child(1){
+      margin-left: -5%;
+    
+      &::after{
+        animation-delay: 2s
+      }    
+    }
+
+    &:nth-child(3){
+      margin-left: 5%;
+  
+      &::after{
+        animation-delay: 2.5s
+      }
+    }
+}
+
+.info {
+  position: absolute;
+  right: 0; 
+  top: 0;
+  bottom: 0;
+  display: flex;
+  margin-right: 45px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  padding: 35px;
+  width: 35%; 
+
+  .text-dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    margin-top: 75px;
+
+    span{
+      color: rgba(255, 255, 255, 0.753);
+      text-align: center;
+      font-family: text2;
+      font-size: 19px;
+    }
+
+    .autor{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 95px;
+      padding: 11px 22px 11px 22px;
+      width: 40%;
+      height: 12vh;
+      border-radius: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.127);
+      background: rgba(255, 255, 255, 0.04);
+      backdrop-filter: blur(15px);
+      transform: translatey(0px);
+	    animation: float 6s ease-in-out infinite;
+      text-align: center;
+
+      .frase .span1{ 
+        text-align: center; 
+        font-size: 17px;
+      }
+
+      .name{
+        margin-top: 15px;
+        margin-left: 65%;
+
+        .span2{
+          margin-top: 15px;
+          font-size: 17px;
+        }
+      }
+    }
+
+    span{
+      margin-top: 35px;
+      transform: translatey(0px);
+	    animation: float 6s ease-in-out infinite;
+      width: 80%;
+    }
+  }
+
+  .title{
+    display: flex;
+    justify-content: flex-start;
+    height: 20vh;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    .logo{
+      position: absolute;
+      width: 16%;
+      height: 12%;
+      border-radius: 80%;
+    }  
+  
+    .info-title{
+      color: rgba(220, 220, 220, 0.93);
+      font-size: 29px;
+      font-family: title;
+      margin-top: 149px;
+    }
+  }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+    
+@keyframes drop{
+  0%{
+    top: -50%
+  }
+  100%{
+    top: 110%
+  }
+}

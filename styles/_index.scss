@@ -1,0 +1,29 @@
+body{
+  background: black;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'text';
+  src: url('./fonts/Kulim_Park/KulimPark-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'text2';
+  src: url('./fonts/Kulim_Park/KulimPark-Light.ttf');
+}
+
+@font-face {
+  font-family: 'title';
+  src: url('./fonts/Jura/static/Jura-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'title2';
+  src: url('./fonts/Jura/static/Jura-Light.ttf');
+}
+
+@import 'techdev';
