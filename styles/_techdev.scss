@@ -16,6 +16,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .robot {
@@ -30,8 +32,8 @@
 
 .robot-img {
   margin-top: 60px;
-  width: 40%; 
-  height: 852px; 
+  width: 39%; 
+  height: 855px; 
 }
 
 .lines{
@@ -126,8 +128,6 @@
       border: 1px solid rgba(255, 255, 255, 0.127);
       background: rgba(255, 255, 255, 0.04);
       backdrop-filter: blur(15px);
-      transform: translatey(0px);
-	    animation: float 6s ease-in-out infinite;
       text-align: center;
 
       .frase .span1{ 
@@ -148,8 +148,6 @@
 
     span{
       margin-top: 35px;
-      transform: translatey(0px);
-	    animation: float 6s ease-in-out infinite;
       width: 80%;
     }
   }

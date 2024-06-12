@@ -1,0 +1,84 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 80px;
+
+  .about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 84vh;
+    flex-direction: row;
+    background-image: url('../public/about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .cuadro{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 85%;
+      height: 70vh;
+      position: relative;
+      border-radius: 20px;
+      border: 1px solid rgba(209, 209, 209, 0.2);
+      background: rgba(246, 246, 246, 0.04);
+      backdrop-filter: blur(14px);
+
+      .text-about {
+        max-width: 600px;
+        margin: 20px;
+        text-align: center;
+        padding-left: 45px;
+  
+        h1{ 
+          text-align: left;
+          color: rgba(255, 255, 255, 0.8); 
+          margin-bottom: 90px;
+          font-size: 35px;
+          font-family: title;
+        }
+        
+        .texts{
+          display: flex;
+          justify-content: center;
+          text-align: left;
+          flex-direction: column;
+          gap: 50px;
+  
+          span{
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 19px;
+            font-family: text2;
+          }
+
+          .text2{ margin-bottom: 50px; }
+        }
+      }
+  
+      .image{ width: 50%; }
+
+      .image .grupo {
+        max-width: 59%;
+        height: 57vh;
+        margin-left: 150px;
+        filter: grayscale(90%);
+        transition: all 1s ease;
+      }
+
+      .image .grupo:hover{
+        filter: grayscale(0%);
+        transition: all 00.5s ease;
+      }
+    }
+  }
+}
+

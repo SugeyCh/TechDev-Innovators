@@ -1,6 +1,6 @@
 import Image from "next/image"
 import robot from '@p/robot.png'
-import logo from '@p/logo.png'
+import logo from '@p/logo2.png'
 import { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
 
