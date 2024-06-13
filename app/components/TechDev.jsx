@@ -53,7 +53,7 @@ export default function TechDev() {
               <div className="frase">
                 <span className="span1">“The best way to predict the future is to invent it”</span>
               </div>
-              <div className="name"> 
+              <div className="names"> 
                 <span className="span2">Alan Kay</span>
               </div>
             </div>

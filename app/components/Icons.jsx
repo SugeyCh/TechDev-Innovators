@@ -109,6 +109,44 @@ const Docker = () => {
   )
 }
 
+const Cel = () => {
+  return(
+    <svg xmlns="http://www.w3.org/2000/svg" width="71" height="79" viewBox="0 0 71 79" fill="none">
+    <path d="M49.9481 0H21.0521C16.4964 0 12.8033 4.10908 12.8033 9.1782V64.3153C12.8033 72.426 18.7117 79 26.001 79H44.999C52.2885 79 58.1967 72.4259 58.1967 64.3153V9.1782C58.1967 4.10908 54.5039 0 49.9481 0ZM35.5 74.2521C34.3747 74.2521 33.4632 73.2378 33.4632 71.9858C33.4632 70.7338 34.3748 69.7194 35.5 69.7194C36.6253 69.7194 37.5368 70.7337 37.5368 71.9858C37.5368 73.2379 36.6253 74.2521 35.5 74.2521ZM30.2624 3.45378H40.7365C41.3266 3.45378 41.8039 3.98641 41.8039 4.6414C41.8039 5.29655 41.3266 5.82903 40.7365 5.82903H30.2624C29.6725 5.82903 29.195 5.2967 29.195 4.6414C29.195 3.98641 29.6725 3.45378 30.2624 3.45378ZM17.4591 64.3153V11.0082H53.5411V64.3151C53.5411 64.9082 53.4855 65.4862 53.3922 66.0491H17.6079C17.5148 65.4864 17.4591 64.9084 17.4591 64.3153Z" fill="#FCFCFC" fill-opacity="0.92"/>
+    </svg>
+  )
+}
+
+const Desktop = () => {
+  return(
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="70" height="79"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 6C2 4.89543 2.89543 4 4 4H20C21.1046 4 22 4.89543 22 6V15C22 16.1046 21.1046 17 20 17H4C2.89543 17 2 16.1046 2 15V6Z" stroke="#ebebeb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M8 20C8 20 9.84939 20 12 20C13.3414 20 14.7999 20 16 20" stroke="#ebebeb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+  )
+}
+
+const Graph = () => {
+  return(
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="70" height="79"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21.6702 6.94942C21.0302 4.77942 19.2202 2.96942 17.0502 2.32942C15.4002 1.84942 14.2602 1.88942 13.4702 2.47942C12.5202 3.18942 12.4102 4.46942 12.4102 5.37942V7.86942C12.4102 10.3294 13.5302 11.5794 15.7302 11.5794H18.6002C19.5002 11.5794 20.7902 11.4694 21.5002 10.5194C22.1102 9.73942 22.1602 8.59942 21.6702 6.94942Z" fill="#ebebeb"></path> <path d="M18.9094 13.3611C18.6494 13.0611 18.2694 12.8911 17.8794 12.8911H14.2994C12.5394 12.8911 11.1094 11.4611 11.1094 9.70113V6.12113C11.1094 5.73113 10.9394 5.35113 10.6394 5.09113C10.3494 4.83113 9.94941 4.71113 9.56941 4.76113C7.21941 5.06113 5.05941 6.35113 3.64941 8.29113C2.22941 10.2411 1.70941 12.6211 2.15941 15.0011C2.80941 18.4411 5.55941 21.1911 9.00941 21.8411C9.55941 21.9511 10.1094 22.0011 10.6594 22.0011C12.4694 22.0011 14.2194 21.4411 15.7094 20.3511C17.6494 18.9411 18.9394 16.7811 19.2394 14.4311C19.2894 14.0411 19.1694 13.6511 18.9094 13.3611Z" fill="#ebebeb"></path> </g></svg>
+  )
+}
+
+const Youtube = () => {
+  return(
+    <svg fill="#e3e3e3" viewBox="-2 -5 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-youtube" width="30" height="30"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M15.812.017H4.145C1.855.017 0 1.852 0 4.116v5.768c0 2.264 1.856 4.1 4.145 4.1h11.667c2.29 0 4.145-1.836 4.145-4.1V4.116c0-2.264-1.856-4.1-4.145-4.1zM13.009 7.28L7.552 9.855a.219.219 0 0 1-.314-.196V4.35c0-.161.173-.266.318-.193l5.458 2.735a.216.216 0 0 1-.005.389z"></path></g></svg>
+  )
+}
+
+const Instagram = () => {
+  return(
+    <svg viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" width="33" height="33"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 5H9.5C7.29086 5 5.5 6.79086 5.5 9V15C5.5 17.2091 7.29086 19 9.5 19H15.5C17.7091 19 19.5 17.2091 19.5 15V9C19.5 6.79086 17.7091 5 15.5 5Z" stroke="#e3e3e3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 15C10.8431 15 9.5 13.6569 9.5 12C9.5 10.3431 10.8431 9 12.5 9C14.1569 9 15.5 10.3431 15.5 12C15.5 12.7956 15.1839 13.5587 14.6213 14.1213C14.0587 14.6839 13.2956 15 12.5 15Z" stroke="#e3e3e3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <rect x="15.5" y="9" width="2" height="2" rx="1" transform="rotate(-90 15.5 9)" fill="#e3e3e3"></rect> <rect x="16" y="8.5" width="1" height="1" rx="0.5" transform="rotate(-90 16 8.5)" stroke="#e3e3e3" stroke-linecap="round"></rect> </g></svg>
+  )
+}
+
+const Gmail = () => {
+  return(
+    <svg fill="#e3e3e3" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#e3e3e3" width="25" height="25"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>gmail</title> <path d="M30.996 7.824v17.381c0 0 0 0 0 0.001 0 1.129-0.915 2.044-2.044 2.044-0 0-0 0-0.001 0h-4.772v-11.587l-8.179 6.136-8.179-6.136v11.588h-4.772c0 0 0 0-0 0-1.129 0-2.044-0.915-2.044-2.044 0-0 0-0.001 0-0.001v0-17.381c0-0 0-0.001 0-0.001 0-1.694 1.373-3.067 3.067-3.067 0.694 0 1.334 0.231 1.848 0.619l-0.008-0.006 10.088 7.567 10.088-7.567c0.506-0.383 1.146-0.613 1.84-0.613 1.694 0 3.067 1.373 3.067 3.067v0z"></path> </g></svg>
+  )
+}
+
 export {
   Js,
   Ts,
@@ -122,5 +160,11 @@ export {
   Django,
   Github,
   Mysql,
-  Docker
+  Docker,
+  Cel,
+  Desktop,
+  Graph,
+  Youtube,
+  Instagram,
+  Gmail
 }

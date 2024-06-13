@@ -1,0 +1,121 @@
+.work{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  h1{
+    margin-top: 299px;
+    font-size: 35px;
+    font-family: title;
+    color: white;
+  }
+}
+
+.work2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.e-card {
+  margin: 100px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  width: 340px;
+  height: 390px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  width: 540px;
+  height: 800px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#af40ffe6,#5a42f3dd 60%,#00dbebde);
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+  top: 210px;
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 20000ms infinite linear;
+}
+
+.wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 15000ms;
+}
+
+.wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 20000ms;
+}
+
+.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-start;
+  width: 3em;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+.infotop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 3.4em;
+  left: 0;
+  right: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 23px;
+  font-family: text;
+}
+
+.name {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 19px;
+  font-family: text2;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

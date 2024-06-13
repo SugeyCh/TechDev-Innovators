@@ -31,18 +31,18 @@ export default function Skills() {
         <div className="square">
           <div className="carousel-container">
             <div className="carousel" >
-              <div className="carousel-slide"><Image src={image1} alt="Image 1" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image2} alt="Image 2" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image3} alt="Image 3" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image4} alt="Image 4" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image5} alt="Image 5" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image6} alt="Image 6" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image1} alt="Image 1" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image2} alt="Image 2" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image3} alt="Image 3" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image4} alt="Image 4" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image5} alt="Image 5" layout="fill" objectFit="cover" /></div>
-              <div className="carousel-slide"><Image src={image6} alt="Image 6" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image1} alt="Image 1" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image2} alt="Image 2" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image3} alt="Image 3" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image4} alt="Image 4" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image5} alt="Image 5" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image6} alt="Image 6" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image1} alt="Image 1" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image2} alt="Image 2" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image3} alt="Image 3" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image4} alt="Image 4" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image5} alt="Image 5" layout="fill" objectFit="cover" /></div>
+              <div className="carousel-slide"><Image className='img' src={image6} alt="Image 6" layout="fill" objectFit="cover" /></div>
             </div>
           </div>
 

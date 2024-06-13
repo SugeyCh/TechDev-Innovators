@@ -26,7 +26,16 @@ body{
   src: url('./fonts/Jura/static/Jura-Light.ttf');
 }
 
+body::-webkit-scrollbar { width: 8px; }
+body::-webkit-scrollbar-track { background: #f3f3f3; }
+body::-webkit-scrollbar-thumb {
+  background: rgba(15, 15, 15, 0.405);
+  border-radius: 20px;
+}
+
 @import 'techdev';
 @import 'navbar';
 @import 'about';
 @import 'skills';
+@import 'work';
+@import 'footer';
