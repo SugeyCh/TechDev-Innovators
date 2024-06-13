@@ -2,12 +2,12 @@ import { Youtube, Instagram, Gmail } from './Icons'
 import Link from 'next/link'
 
 export default function Footer() {
-  return(
+  return (
     <>
       <div className="footer">
         <div className="f1">
           <h1>TechDev Innovators</h1>
-          <span>"Transformando ideas en soluciones tecnológicas."</span>
+          <span>&quot;Transformando ideas en soluciones tecnológicas.&quot;</span>
 
           <div className="fo">
             <span>Powered by TechDev Innovators 2024</span>
